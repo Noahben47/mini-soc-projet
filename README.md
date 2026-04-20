@@ -3,19 +3,6 @@
 > Laboratoire Security Operations Center miniature déployé dans le cadre du M2 Cybersécurité & Sciences des Données à l'Université Paris 8.
 
 
-## Table des matières
-
-- [Contexte](#-contexte)
-- [Objectifs](#-objectifs)
-- [Architecture](#-architecture)
-- [Technologies utilisées](#-technologies-utilisées)
-- [Scénarios testés](#-scénarios-testés)
-- [Résultats et apprentissages](#-résultats-et-apprentissages)
-- [Installation](#-installation)
-- [Auteur](#-auteur)
-
----
-
 ## Contexte
 
 Ce projet a été réalisé dans le cadre du Master 2 Cybersécurité & Sciences des Données (Université Paris 8). L'objectif était de concevoir, déployer et tester un **SOC miniature** capable de détecter, analyser et répondre à des incidents de sécurité en environnement virtualisé.
@@ -50,8 +37,6 @@ Ce projet a été réalisé dans le cadre du Master 2 Cybersécurité & Sciences
                             │   d'incidents)  │
                             └─────────────────┘
 ```
-
-📄 [Schéma détaillé de l'architecture](docs/architecture.md)
 
 ---
 
@@ -109,7 +94,7 @@ Ce projet a été réalisé dans le cadre du Master 2 Cybersécurité & Sciences
 Étudiant M2 Cybersécurité & Sciences des Données — Université Paris 8
 Data Engineer en alternance @ SNCF Réseau
 
--  [LinkedIn](https://www.linkedin.com/in/ton-profil) *(mets ton vrai lien)*
+-  [LinkedIn]([https://www.linkedin.com/in/ton-profil](https://www.linkedin.com/in/benali-adem-732193250/))
 -  Disponible pour alternance **Data Engineer / Data Scientist / Data Analyst — septembre 2026**
 
 ---
@@ -118,4 +103,3 @@ Data Engineer en alternance @ SNCF Réseau
 
 Projet académique à but pédagogique. Voir [LICENSE](LICENSE).
 
-> ⚠️ **Note** : Toutes les configurations, adresses IP et données sensibles ont été anonymisées. Ce projet est destiné à un usage pédagogique uniquement.
