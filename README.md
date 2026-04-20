@@ -74,19 +74,16 @@ Ce projet a été réalisé dans le cadre du Master 2 Cybersécurité & Sciences
 - **Objectif** : Détecter des tentatives massives de connexion SSH
 - **Outil d'attaque** : Hydra depuis Kali Linux
 - **Détection** : Wazuh (règle 5712 — authentification SSH échouée)
-- **Résultat** : ✅ Alerte remontée dans TheHive en < 30 secondes
+- **Résultat** :  Alerte remontée dans TheHive en < 30 secondes
 
-📄 [Détails du scénario 1](scenarios/scenario-1-bruteforce.md)
 
 ### Scénario 2 — Scan réseau (reconnaissance)
 - **Objectif** : Détecter un scan Nmap sur le réseau interne
 - **Outil d'attaque** : Nmap (scan SYN, scan agressif)
 - **Détection** : Suricata (règles ET OPEN)
-- **Résultat** : ✅ Signature détectée, alerte ingérée dans TheHive
+- **Résultat** :  Signature détectée, alerte ingérée dans TheHive
 
-📄 [Détails du scénario 2](scenarios/scenario-2-scan.md)
 
-*(Ajoute ici les autres scénarios que tu as testés)*
 
 ---
 
@@ -105,22 +102,6 @@ Ce projet a été réalisé dans le cadre du Master 2 Cybersécurité & Sciences
 
 ---
 
-##  Installation
-
-Consulte le [guide d'installation complet](docs/installation.md) pour reproduire le lab.
-
-**Prérequis** :
-- 16 Go de RAM minimum (32 Go recommandés)
-- 100 Go d'espace disque
-- VirtualBox ou VMware Workstation
-
----
-
-##  Captures d'écran
-
-Les captures d'écran des interfaces Wazuh, TheHive et des alertes sont disponibles dans le dossier [`docs/screenshots/`](docs/screenshots/).
-
----
 
 ##  Auteur
 
